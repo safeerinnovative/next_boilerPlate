@@ -23,10 +23,6 @@ export default function pageNo() {
         setCurrentData(dummyData.data)
     }
 
-    setTimeout(() => {
-        console.log(CurrentData)
-    }, 5000);
-
     return (
         <section>
             <Head>

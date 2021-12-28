@@ -9,7 +9,6 @@ export default function index() {
     useEffect( async () => {
         let dummyData = await axios.get('https://jsonplaceholder.typicode.com/todos/');
         setCurrentData(dummyData.data);
-        console.log(dummyData.data)
     }, [])
 
     return (
