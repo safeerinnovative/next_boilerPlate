@@ -27,7 +27,7 @@ export default function pageNo() {
         <section>
             <Head>
                 <title>Blog {pageNumber}</title>
-                <meta name="description" content="Next Home" />
+                <meta name="description" content={`Some Content of Page ${CurrentData.id}`} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div>
