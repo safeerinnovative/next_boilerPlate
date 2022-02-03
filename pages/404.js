@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from './assets/css/Home.module.css'
 import Link from 'next/Link'
 import { useRouter } from 'next/router'
 

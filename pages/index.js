@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/Link'
-import styles from '../styles/Home.module.css'
+import styles from './assets/css/Home.module.css'
 
 export default function Home() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container, 'container'}>
       <Head>
         <title>Next Home Page</title>
         <meta name="description" content="Next Home" />
