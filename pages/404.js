@@ -1,5 +1,6 @@
 import styles from './assets/css/Home.module.css'
 import Link from 'next/Link'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useRouter } from 'next/router'
 
 export default function ErrorPage() {

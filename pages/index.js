@@ -14,7 +14,6 @@ export default function Home() {
       <Link href='/about'>
         <a>Go To About Page</a>
       </Link>
-
     </section>
   )
 }
